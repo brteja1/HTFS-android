@@ -10,7 +10,7 @@ The compiled Android library AAR file is located at:
 *   **Gradle Project Root:** `/linuxdev/github/HTFS-android/android-lib`
 *   **Library Module:** `/linuxdev/github/HTFS-android/android-lib/htfs-android`
 *   **Java Wrapper:** [HTFS.java](file:///linuxdev/github/HTFS-android/android-lib/htfs-android/src/main/java/org/htfs/android/HTFS.java)
-*   **Python Engine Sources:** [htfs/](file:///linuxdev/github/HTFS-android/android-lib/htfs-android/src/main/python/htfs)
+*   **Python Engine Sources:** Linked directly via git submodule to the [HTFS/](file:///linuxdev/github/HTFS-android/HTFS) directory.
 
 ---
 
