@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
         htfs.tagResource(resourceUrl, Arrays.asList("Reports", "Status/Completed"));
 
         // 5. Query resources by expression
-        List<String> matchingResources = htfs.getResourcesByTagExpr("Reports & ~Draft");
+        List<String> matchingResources = htfs.getResourcesByTagExpr("Reports & ~Completed");
         
         // 6. Cleanup on exit
         htfs.close();
